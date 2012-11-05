@@ -13,6 +13,15 @@
 		0F218DC3162E561A000F0F01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F218DC1162E561A000F0F01 /* InfoPlist.strings */; };
 		0F218DC5162E561A000F0F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F218DC4162E561A000F0F01 /* main.m */; };
 		0F218DC9162E561A000F0F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F218DC8162E561A000F0F01 /* AppDelegate.m */; };
+		0F218DEE162E92DA000F0F01 /* beixing.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F218DE8162E92DA000F0F01 /* beixing.png */; };
+		0F218DEF162E92DA000F0F01 /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F218DE9162E92DA000F0F01 /* btn_back.png */; };
+		0F218DF0162E92DA000F0F01 /* navigationbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F218DEA162E92DA000F0F01 /* navigationbar_background.png */; };
+		0F218DF1162E92DA000F0F01 /* shufang.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F218DEB162E92DA000F0F01 /* shufang.png */; };
+		0F218DF2162E92DA000F0F01 /* szj.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F218DEC162E92DA000F0F01 /* szj.png */; };
+		0F218DF3162E92DA000F0F01 /* yecao.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F218DED162E92DA000F0F01 /* yecao.png */; };
+		0F218DF6162E95F9000F0F01 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F218DF5162E95F9000F0F01 /* RootViewController.m */; };
+		0F218DF9162E9863000F0F01 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F218DF8162E9863000F0F01 /* DetailViewController.m */; };
+		0FD00FD41630E7A700C8E948 /* UIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD00FD31630E7A700C8E948 /* UIAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,24 @@
 		0F218DB8162E561A000F0F01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F218DBA162E561A000F0F01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F218DBC162E561A000F0F01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0F218DC0162E561A000F0F01 /* 各种控件-Info.plist */ = {isa = PBXFileReference; path = "各种控件-Info.plist"; sourceTree = "<group>"; };
+		0F218DC0162E561A000F0F01 /* 各种控件-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "各种控件-Info.plist"; sourceTree = "<group>"; };
 		0F218DC2162E561A000F0F01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F218DC4162E561A000F0F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F218DC6162E561A000F0F01 /* 各种控件-Prefix.pch */ = {isa = PBXFileReference; path = "各种控件-Prefix.pch"; sourceTree = "<group>"; };
-		0F218DC7162E561A000F0F01 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F218DC6162E561A000F0F01 /* 各种控件-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "各种控件-Prefix.pch"; sourceTree = "<group>"; };
+		0F218DC7162E561A000F0F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F218DC8162E561A000F0F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F218DE8162E92DA000F0F01 /* beixing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beixing.png; sourceTree = "<group>"; };
+		0F218DE9162E92DA000F0F01 /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
+		0F218DEA162E92DA000F0F01 /* navigationbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar_background.png; sourceTree = "<group>"; };
+		0F218DEB162E92DA000F0F01 /* shufang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shufang.png; sourceTree = "<group>"; };
+		0F218DEC162E92DA000F0F01 /* szj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = szj.png; sourceTree = "<group>"; };
+		0F218DED162E92DA000F0F01 /* yecao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yecao.png; sourceTree = "<group>"; };
+		0F218DF4162E95F8000F0F01 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0F218DF5162E95F9000F0F01 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0F218DF7162E9863000F0F01 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0F218DF8162E9863000F0F01 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0FD00FD21630E7A700C8E948 /* UIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAdditions.h; sourceTree = "<group>"; };
+		0FD00FD31630E7A700C8E948 /* UIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +66,14 @@
 		0F218DA9162E5619000F0F01 = {
 			isa = PBXGroup;
 			children = (
+				0FD00FD21630E7A700C8E948 /* UIAdditions.h */,
+				0FD00FD31630E7A700C8E948 /* UIAdditions.m */,
+				0F218DF7162E9863000F0F01 /* DetailViewController.h */,
+				0F218DF8162E9863000F0F01 /* DetailViewController.m */,
+				0F218DF4162E95F8000F0F01 /* RootViewController.h */,
+				0F218DF5162E95F9000F0F01 /* RootViewController.m */,
 				0F218DBE162E561A000F0F01 /* 各种控件 */,
+				0F218DE6162E928B000F0F01 /* resouse */,
 				0F218DB7162E561A000F0F01 /* Frameworks */,
 				0F218DB5162E561A000F0F01 /* Products */,
 			);
@@ -88,6 +116,19 @@
 				0F218DC6162E561A000F0F01 /* 各种控件-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F218DE6162E928B000F0F01 /* resouse */ = {
+			isa = PBXGroup;
+			children = (
+				0F218DE8162E92DA000F0F01 /* beixing.png */,
+				0F218DE9162E92DA000F0F01 /* btn_back.png */,
+				0F218DEA162E92DA000F0F01 /* navigationbar_background.png */,
+				0F218DEB162E92DA000F0F01 /* shufang.png */,
+				0F218DEC162E92DA000F0F01 /* szj.png */,
+				0F218DED162E92DA000F0F01 /* yecao.png */,
+			);
+			name = resouse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +182,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F218DC3162E561A000F0F01 /* InfoPlist.strings in Resources */,
+				0F218DEE162E92DA000F0F01 /* beixing.png in Resources */,
+				0F218DEF162E92DA000F0F01 /* btn_back.png in Resources */,
+				0F218DF0162E92DA000F0F01 /* navigationbar_background.png in Resources */,
+				0F218DF1162E92DA000F0F01 /* shufang.png in Resources */,
+				0F218DF2162E92DA000F0F01 /* szj.png in Resources */,
+				0F218DF3162E92DA000F0F01 /* yecao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +200,9 @@
 			files = (
 				0F218DC5162E561A000F0F01 /* main.m in Sources */,
 				0F218DC9162E561A000F0F01 /* AppDelegate.m in Sources */,
+				0F218DF6162E95F9000F0F01 /* RootViewController.m in Sources */,
+				0F218DF9162E9863000F0F01 /* DetailViewController.m in Sources */,
+				0FD00FD41630E7A700C8E948 /* UIAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +304,7 @@
 				0F218DCE162E561A000F0F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

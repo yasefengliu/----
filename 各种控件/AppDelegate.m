@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootViewController.h"
+#import "DetailViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -21,10 +22,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
+    RootViewController *rootvc=[[RootViewController alloc]init];
+    UINavigationController *navc=[[UINavigationController alloc]initWithRootViewController:rootvc];
+    self.window.rootViewController=navc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+    [rootvc release];
+    [navc release];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
